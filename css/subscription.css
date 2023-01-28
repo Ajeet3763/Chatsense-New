@@ -1,0 +1,1583 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Chatsense Header part styling start here=======>>>>>>>>> */
+header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 50px rgb(0 0 0 / 10%);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+header .header-flex {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header-flex .logo .main-logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-flex .logo .main-logo-img img {
+    width: 200px;
+    height: auto;
+}
+
+.header-flex .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-flex .nav-bar ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+.header-flex .nav-bar ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    list-style-type: none;
+}
+
+.header-flex .nav-bar ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    position: relative;
+    color: #262E5DB3;
+    font-family: Roboto, sans-serif;
+    padding: 28px 2px;
+}
+
+.header-flex .nav-bar ul li a:hover {
+    transition: all 0.5s;
+    color: #4788ee;
+}
+
+/* hover start heere====>>>>>> */
+.open_nav {
+    width: 180px;
+    display: none;
+    position: absolute;
+    top: 90%;
+    right: 30%;
+    z-index: 1;
+}
+
+.open_nav .open_nav_tab {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F2F5;
+    border: 1px solid #3333331c;
+    border-radius: 10px;
+}
+
+.open_nav .open_nav_tab .sol_left a {
+    color: #181E40ED;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 15px;
+}
+
+.open_nav .open_nav_tab .sol_right a {
+    color: #181E40ED;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    font-size: 15px;
+}
+
+.dropDown:hover .open_nav {
+    display: block;
+}
+
+
+/* arrow to dropdown adding header links===>>> */
+/* .header-flex .nav-bar ul li a:after {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: -21px;
+    color: #000;
+    top: 5px;
+    width: 7px;
+    transform: rotate(45deg);
+    height: 7px;
+    border: 1px solid;
+    transform: 0 deg;
+    border-width: 0px 2px 2px 0;
+} */
+
+.header-flex .nav-btn button {
+    font-size: 13px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #4788ee;
+    padding: 10px 20px;
+    border-radius: 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-family: Roboto, sans-serif;
+    transition: all 1.2s;
+    border: 2px solid white;
+}
+
+.header-flex .nav-btn button:hover {
+    background-color: rgb(247, 247, 247);
+    color: #181E40;
+}
+
+.header-flex .bars {
+    border: 1px solid #4788ee;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    color: #181E40;
+    width: 37px;
+    height: 37px;
+    position: relative;
+    display: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.header-flex .bars .first_line {
+    width: 25px;
+    background-color: #181E40;
+    height: 3px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    transition: all 0.8s;
+}
+
+.header-flex .bars .second_line {
+    width: 25px;
+    background-color: #181E40;
+    height: 3px;
+    position: absolute;
+    top: 17px;
+    right: 5px;
+    transition: all 0.8s;
+}
+
+.header-flex .bars .third_line {
+    width: 25px;
+    background-color: #181E40;
+    height: 3px;
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    transition: all 0.8s;
+}
+
+/* communication start styling here===>>>>>>>>> */
+.communication-section {
+    width: 100%;
+    height: auto;
+    padding: 20px 5px;
+    background-color: #B9B9B94A;
+}
+
+.communication-section .user {
+    max-width: 100%;
+    height: auto;
+    padding: 25px 0px;
+}
+
+.user .user_first {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.user .user_first .user_data h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #181E40;
+    font-size: 33px;
+}
+
+.user .user_first .user_data p {
+    font-size: 16px;
+    text-align: center;
+    color: #878787;
+    font-family: Roboto, sans-serif;
+    margin-top: 30px;
+    line-height: 26px;
+    padding: 0px 93px;
+}
+
+.user_first .free_trial_btn {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.free_trial_btn button {
+    width: 220px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-family: Popins, sans-serif;
+    margin: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4788ee;
+    outline: 2px solid #4788ee;
+}
+
+.free_trial_btn button:hover {
+    background-color: rgb(247, 247, 247);
+    color: #333333;
+    transition: all 1.2s;
+}
+
+.user .chatsense_footer {
+    width: 95%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid #ffffff45;
+    flex-wrap: wrap;
+    padding: 10px 108px;
+    margin: auto;
+}
+
+.chatsense_footer .chatsense_address {
+    width: 25%;
+    height: auto;
+    padding: 10px 7px;
+}
+
+.chatsense_address .chatsense-logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.chatsense_address .chatsense-logo-img img {
+    width: 60%;
+    height: auto;
+}
+
+.imp_heading {
+    margin-top: 18px;
+}
+
+.imp_heading h4 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: #181E40;
+    margin: 0;
+}
+
+.imp_heading h5 {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    color: #181E40;
+}
+
+.chatsense_email {
+    margin-top: 20px;
+}
+
+.chatsense_email span {
+    color: #181E40;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+.chatsense_email span a {
+    color: #181E40;
+}
+
+.dwnload_store {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.dwnload_store img {
+    width: 65%;
+    height: 80px;
+    margin: 7px 10px;
+    border-radius: 10px;
+}
+
+.chatsense_footer .integrations {
+    width: 18%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+
+.integrations h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    color: #181E40;
+    font-weight: 400;
+}
+
+.integrations .inte-u ul {
+    padding: 0px;
+}
+
+.integrations ul li {
+    list-style-type: none;
+    text-align: left;
+    line-height: 30px;
+}
+
+.integrations ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+    color: #181E40;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.last_img {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.last_img .lst_company_logo {
+    width: 23%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.last_img .lst_company_logo img {
+    width: 30px;
+    height: auto;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+/* footer part styling start here===>>>>>> */
+footer .footer_line {
+    padding: 5px 10px;
+    height: auto;
+}
+
+.footer_line h2 {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    color: #181E40;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/* subscription plan styling start here===>>>>>>>> */
+.sub_start {
+    width: 100%;
+    height: auto;
+    padding: 60px 20px;
+    margin: auto;
+}
+
+.sub_start .sub_part {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.sub_part .sub_heading h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #181E40;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sub_part .subs_all_plan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.subs_all_plan .sub_plan {
+    padding: 20px 0px;
+    border: 1px solid #37373733;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgba(60, 60, 60, 0.06);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.sub_plan .box {
+    width: 144px;
+    height: 94px;
+    background-color: rgb(76, 175, 80);
+    position: absolute;
+    top: -29px;
+    rotate: 45deg;
+    right: -58px;
+}
+
+
+.sub_plan .first_headings {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sub_plan .first_headings .f_head h1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 30px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #393939;
+    font-weight: 600;
+}
+
+.sub_plan .para {
+    padding: 20px 10px;
+    line-height: 25px;
+}
+
+.para .second_line {
+    display: flex;
+}
+
+.second_line .right_img img {
+    width: 40%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.second_line .second_content p {
+    color: #37373796;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.payment_type {
+    width: 100%;
+    height: auto;
+}
+
+.payment_type .first_pay h1 {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #393939d1;
+    font-weight: 600;
+}
+
+.payment_type .mnth p {
+    text-align: center;
+    color: #37373796;
+}
+
+.select {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.select .last_select {
+    width: 100%;
+    height: auto;
+}
+
+.select .last_select button {
+    width: 50%;
+    height: auto;
+    padding: 15px 0px;
+    border-radius: 40px;
+    border: none;
+    background-color: #FFFFFF;
+    transition: all 1.2s;
+    letter-spacing: 1px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid rgb(76, 175, 80);
+}
+
+.select .last_select button:hover {
+    background-color: rgb(76, 175, 80);
+    color: #FFFFFF;
+    border: 1px solid white;
+}
+
+/* media query start here=====>>>>>>>>>>>>> */
+@media (max-width:1024px) {
+    .full_length {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_expand {
+        display: block !important;
+        background-color: #e1eaf4;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        line-height: 50px;
+    }
+
+    .header-flex .nav-bar {
+        display: none;
+    }
+
+    .header-flex .nav-btn {
+        padding-bottom: 30px;
+    }
+
+    .header-flex .nav-btn button {
+        width: 40%;
+        padding: 10px 0px;
+        background-color: #4788ee;
+        color: #FFFFFF;
+        transition: all 1.2s;
+    }
+
+    .header-flex .nav-btn button:hover {
+        background-color: #ffffff;
+        color: #181E40;
+    }
+
+    .first_cross {
+        top: 13px !important;
+        right: 7px !important;
+        transform: rotate(44deg) translateX(5px);
+        transition: all 0.8s;
+    }
+
+    .second_cross {
+        top: 14px !important;
+        right: 1px !important;
+        transform: rotate(131deg) translateX(4px);
+        transition: all 0.8s;
+    }
+
+    .third_cross {
+        position: absolute;
+        transition: all 0.8s;
+        top: -8px !important;
+    }
+}
+
+@media (max-width:320px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .sub_start {
+        padding: 10px;
+    }
+
+    .sub_part .sub_heading h2 {
+        font-size: 20px;
+    }
+
+    .sub_part .subs_all_plan {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .subs_all_plan .sub_plan {
+        padding: 10px 2px;
+        margin: 10px 0;
+    }
+
+    .sub_plan .first_headings .f_head h1 {
+        padding: 9px 30px;
+        font-size: 13px;
+    }
+
+    .sub_plan .para {
+        padding: 8px;
+        line-height: 20px;
+    }
+
+    .second_line .right_img img {
+        margin: 0;
+    }
+
+    .payment_type .first_pay h1 {
+        font-size: 20px;
+    }
+
+    .payment_type {
+        margin-top: 0;
+    }
+
+    .payment_type .mnth p {
+        font-size: 13px;
+    }
+
+    .select .last_select button {
+        width: 37%;
+        padding: 10px 0;
+        font-size: 11px;
+    }
+
+    .select {
+        margin-top: 10px;
+    }
+
+    .sub_plan .box {
+        width: 124px;
+        height: 85px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 14px;
+    }
+
+    .imp_heading h5 {
+        font-size: 13px;
+    }
+
+    .wati_address .chatsense_email {
+        margin-top: 7px;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 60%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 12px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    .header-flex .nav-btn button {
+        width: 30% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .sub_start {
+        padding: 10px;
+    }
+
+    .sub_part .sub_heading h2 {
+        font-size: 20px;
+    }
+
+    .sub_part .subs_all_plan {
+        margin-top: 5px;
+    }
+
+    .subs_all_plan .sub_plan {
+        padding: 10px 2px;
+        margin: 10px auto;
+    }
+
+    .sub_plan .first_headings .f_head h1 {
+        padding: 10px 38px;
+        font-size: 13px;
+    }
+
+    .payment_type {
+        margin: 0;
+    }
+
+    .sub_plan .para {
+        padding: 8px;
+        line-height: 21px;
+    }
+
+    .second_line .right_img img {
+        margin: 0;
+    }
+
+    .payment_type .first_pay h1 {
+        font-size: 20px;
+    }
+
+    .payment_type .mnth p {
+        font-size: 13px;
+    }
+
+    .select .last_select button {
+        width: 37%;
+        padding: 10px 0;
+        font-size: 11px;
+    }
+
+    .select {
+        margin-top: 10px;
+    }
+
+    .sub_plan .box {
+        width: 119px;
+        height: 83px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 14px;
+    }
+
+    .imp_heading h5 {
+        font-size: 13px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: block;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 40%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 12px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media (min-width:481px) and (max-width:680px) {
+    .header-flex .nav-btn button {
+        width: 30% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .sub_start {
+        padding: 10px;
+    }
+
+    .sub_part .sub_heading h2 {
+        font-size: 20px;
+    }
+
+    .sub_part .subs_all_plan {
+        margin-top: 5px;
+    }
+
+    .subs_all_plan .sub_plan {
+        padding: 10px 2px;
+        margin: 10px auto;
+    }
+
+    .sub_plan .first_headings .f_head h1 {
+        padding: 10px 67px;
+        font-size: 13px;
+    }
+
+    .payment_type {
+        margin: 0;
+    }
+
+    .sub_plan .para {
+        padding: 8px;
+        line-height: 21px;
+    }
+
+    .second_line .right_img img {
+        margin: 0;
+    }
+
+    .payment_type .first_pay h1 {
+        font-size: 20px;
+    }
+
+    .payment_type .mnth p {
+        font-size: 13px;
+    }
+
+    .select .last_select button {
+        width: 37%;
+        padding: 10px 0;
+        font-size: 11px;
+    }
+
+    .select {
+        margin-top: 10px;
+    }
+
+    .sub_plan .box {
+        width: 123px;
+        height: 72px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media (min-width:681px) and (max-width:767px) {
+    .header-flex .nav-btn button {
+        width: 20% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .sub_start {
+        padding: 10px;
+    }
+
+    .sub_part .sub_heading h2 {
+        font-size: 20px;
+    }
+
+    .sub_part .subs_all_plan {
+        margin-top: 5px;
+    }
+
+    .subs_all_plan .sub_plan {
+        padding: 10px 2px;
+        margin: 10px 0;
+    }
+
+    .sub_plan .first_headings .f_head h1 {
+        padding: 10px 42px;
+        font-size: 13px;
+    }
+
+    .payment_type {
+        margin: 0;
+    }
+
+    .sub_plan .para {
+        padding: 8px;
+        line-height: 21px;
+    }
+
+    .second_line .right_img img {
+        margin: 0;
+    }
+
+    .payment_type .first_pay h1 {
+        font-size: 20px;
+    }
+
+    .payment_type .mnth p {
+        font-size: 13px;
+    }
+
+    .select .last_select button {
+        width: 37%;
+        padding: 10px 0;
+        font-size: 11px;
+    }
+
+    .select {
+        margin-top: 10px;
+    }
+
+    .sub_plan .box {
+        width: 135px;
+        height: 70px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .header-flex .nav-btn button {
+        width: 20% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .sub_start {
+        padding: 10px;
+    }
+
+    .sub_part .sub_heading h2 {
+        font-size: 20px;
+    }
+
+    .sub_part .subs_all_plan {
+        margin-top: 5px;
+    }
+
+    .subs_all_plan .sub_plan {
+        padding: 10px 2px;
+        margin: 10px 0;
+    }
+
+    .sub_plan .first_headings .f_head h1 {
+        padding: 10px 55px;
+        font-size: 13px;
+    }
+
+    .payment_type {
+        margin: 0;
+    }
+
+    .sub_plan .para {
+        padding: 8px;
+        line-height: 21px;
+    }
+
+    .second_line .right_img img {
+        margin: 0;
+    }
+
+    .payment_type .first_pay h1 {
+        font-size: 20px;
+    }
+
+    .payment_type .mnth p {
+        font-size: 13px;
+    }
+
+    .select .last_select button {
+        width: 37%;
+        padding: 10px 0;
+        font-size: 11px;
+    }
+
+    .select {
+        margin-top: 10px;
+    }
+
+    .sub_plan .box {
+        width: 119px;
+        height: 74px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5501,
+    "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+        "live-server": true,
+        "live-preview": true
+    }
+}

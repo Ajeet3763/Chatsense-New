@@ -1,0 +1,2494 @@
+@media (max-width:1024px) {
+    .full_length {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_expand {
+        display: block !important;
+        background-color: #e1eaf4;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        line-height: 50px;
+    }
+
+    .header-flex .nav-bar {
+        display: none;
+    }
+
+    .header-flex .nav-btn {
+        padding-bottom: 30px;
+    }
+
+    .header-flex .nav-btn button {
+        width: 40%;
+        padding: 10px 0px;
+        background-color: #4788ee;
+        color: #FFFFFF;
+        transition: all 1.2s;
+    }
+
+    .header-flex .nav-btn button:hover {
+        background-color: #ffffff;
+        color: #181E40;
+    }
+
+    .first_cross {
+        top: 13px !important;
+        right: 7px !important;
+        transform: rotate(44deg) translateX(5px);
+        transition: all 0.8s;
+    }
+
+    .second_cross {
+        top: 14px !important;
+        right: 1px !important;
+        transform: rotate(131deg) translateX(4px);
+        transition: all 0.8s;
+    }
+
+    .third_cross {
+        position: absolute;
+        transition: all 0.8s;
+        top: -8px !important;
+    }
+}
+
+/* responsiv for 320px start here========>>>>>>>>>>>>> */
+@media (max-width:320px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    /* customer section responsiv start here===>>>>> */
+    .customer-section {
+        padding: 5px;
+    }
+
+    .customer-left-side h1 {
+        font-size: 21px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-left-side p {
+        font-size: 13px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-section .customer-data {
+        display: block;
+        width: 95%;
+        padding: 0px;
+    }
+
+    .customer-data .customer-left-side {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .customer-left-side .sign-up-btn {
+        margin-top: 10px;
+    }
+
+    .customer-left-side .sign-up-btn button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .customer-data .customer-right-side {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .customer-right-side img {
+        box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* trusted guide section====>> */
+    .trusted-guide-section {
+        padding: 5px;
+    }
+
+    /* Business-across styling start here====>>>>>> */
+    .business-across-section {
+        padding: 0;
+    }
+
+    .chatsense-heading h2 {
+        font-size: 19px;
+    }
+
+    .box {
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box .box-image {
+        margin: 5px;
+    }
+
+    .box-image img {
+        width: 230px;
+    }
+
+    .whatsap-section {
+        padding: 5px;
+    }
+
+    .whatsap_main_container .whatsap-para h1 {
+        font-size: 20px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    .whatsap-section .whatsap-para p {
+        margin: 0;
+    }
+
+    .main-whatsap {
+        display: block;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left p {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .whatsap-left .right-mark {
+        margin-top: 0px;
+    }
+
+    .right-mark img {
+        width: 20px;
+        margin-right: 11px;
+    }
+
+    .right-mark p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 0;
+    }
+
+    .main-whatsap .whatsap-right {
+        width: 100%;
+        height: auto;
+        padding: 3px;
+        margin: auto;
+    }
+
+    .main-whatsap .whatsap-right img {
+        margin: 0;
+    }
+
+    /* About Chatsense start here===>>>>>>>>> */
+    .about-chatsense-section {
+        padding: 5px;
+    }
+
+    .chatsense-lead {
+        padding: 8px 5px;
+    }
+
+    .chatsense-companies {
+        display: block;
+    }
+
+    .company-tag-left {
+        display: block;
+    }
+
+    .company-tag-right {
+        padding: 16px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 5px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 60%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* bussines-section styling start here====>>>>>>>>>>>> */
+    .busines-section {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business {
+        padding: 0px;
+    }
+
+    .busines-section .chatsense-business h2 {
+        font-size: 20px;
+    }
+
+    .chatsense-business .sales-team {
+        display: block;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .sales-heading h4 {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .sales-heading p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .sales-team .sales-heading {
+        width: 96%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .sales-team .sign-up-demo {
+        width: 100%;
+        height: auto;
+    }
+
+    .sales-team .sign-up-demo button {
+        margin: 0;
+        width: 60%;
+        font-size: 14px;
+    }
+
+    /* why chatsense start here======>>>>>>>>>>> */
+    .why-chatsense-section {
+        padding: 5px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp {
+        padding: 0px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp h2 {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .why-chatsense-imp .imp-part {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imp-part .imp-left {
+        width: 98%;
+        height: auto;
+        margin: auto;
+    }
+
+    .imp-part .imp-right {
+        width: 98%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .imp-right .imp-mark {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        text-align: left;
+        gap: 14px;
+    }
+
+    .imp-mark img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp p {
+        font-size: 10px;
+    }
+
+    /* Brands and customer experience start here */
+    .brands-section {
+        margin: auto;
+        padding: 0px 5px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 5px;
+    }
+
+    .brands-section .brands-countries .head-contries h4 {
+        font-size: 14px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .brands-countries .reviews {
+        margin: auto;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        height: auto;
+        padding: 43px 5px 10px 5px;
+        margin-top: 57px;
+    }
+
+    .customer_image {
+        top: -13%;
+        left: 35%;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 70px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 14px;
+    }
+
+    .imp_heading h5 {
+        font-size: 13px;
+    }
+
+    .wati_address .chatsense_email {
+        margin-top: 7px;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 60%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 12px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+/* responsiv for min width 321px to 480px start here========>>>>>>>>>>>>> */
+@media (min-width:321px) and (max-width:480px) {
+    .header-flex .nav-btn button {
+        width: 30% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    /* customer section responsiv start here===>>>>> */
+    .customer-section {
+        padding: 5px;
+    }
+
+    .customer-left-side h1 {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-left-side p {
+        font-size: 13px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-section .customer-data {
+        display: block;
+        width: 95%;
+        padding: 0px;
+    }
+
+    .customer-data .customer-left-side {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .customer-left-side .sign-up-btn {
+        margin-top: 10px;
+    }
+
+    .customer-left-side .sign-up-btn button {
+        padding: 16px;
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .customer-left-side .customer-send-rate p {
+        font-size: 10px;
+    }
+
+    .customer-data .customer-right-side {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .customer-right-side img {
+        box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* trusted guide section====>> */
+    .trusted-guide-section {
+        padding: 5px;
+    }
+
+    /* Business-across styling start here====>>>>>> */
+    .business-across-section {
+        padding: 0;
+    }
+
+    .chatsense-heading h2 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box .box-image {
+        margin: 5px;
+    }
+
+    .box-image img {
+        width: 230px;
+    }
+
+    .whatsap-section {
+        padding: 5px;
+    }
+
+    .whatsap_main_container .whatsap-para h1 {
+        font-size: 20px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    .whatsap-section .whatsap-para p {
+        margin: 0;
+    }
+
+    .main-whatsap {
+        display: block;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left p {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .whatsap-left .right-mark {
+        margin-top: 0px;
+    }
+
+    .right-mark img {
+        width: 20px;
+        margin-right: 11px;
+    }
+
+    .right-mark p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 0;
+    }
+
+    .main-whatsap .whatsap-right {
+        width: 100%;
+        height: auto;
+        padding: 3px;
+        margin-top: 10px;
+    }
+
+    .main-whatsap .whatsap-right img {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* About Chatsense start here===>>>>>>>>> */
+    .about-chatsense-section {
+        padding: 5px;
+    }
+
+    .chatsense-lead {
+        padding: 8px 5px;
+    }
+
+    .chatsense-companies {
+        display: block;
+    }
+
+    .company-tag-left {
+        display: block;
+    }
+
+    .company-tag-right {
+        padding: 16px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 5px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 20px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 60%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* bussines-section styling start here====>>>>>>>>>>>> */
+    .busines-section {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .chatsense-business .sales-team {
+        display: block;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .sales-heading h4 {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .sales-heading p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .sales-team .sales-heading {
+        width: 96%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .sales-team .sign-up-demo {
+        width: 100%;
+        height: auto;
+    }
+
+    .sales-team .sign-up-demo button {
+        margin: 0;
+        width: 60%;
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    /* why chatsense start here======>>>>>>>>>>> */
+    .why-chatsense-section {
+        padding: 5px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp {
+        padding: 0px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp h2 {
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .why-chatsense-imp .imp-part {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imp-part .imp-left {
+        width: 98%;
+        height: auto;
+        margin: auto;
+    }
+
+    .imp-part .imp-left img {
+        margin-top: 10px;
+    }
+
+    .imp-part .imp-right {
+        width: 98%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .imp-right .imp-mark {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        text-align: left;
+        gap: 14px;
+    }
+
+    .imp-mark img {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Brands and customer experience start here */
+    .brands-section {
+        margin: auto;
+        padding: 0px 5px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 5px;
+    }
+
+    .brands-section .brands-countries .head-contries h4 {
+        font-size: 14px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .brands-countries .reviews {
+        margin: auto;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        height: auto;
+        padding: 56px 15px 10px 15px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+    .customer_image {
+        top: -16%;
+        left: 43%;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 75px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 14px;
+    }
+
+    .imp_heading h5 {
+        font-size: 13px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: block;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 40%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 12px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+/* responsiv for min width 321px to 480px start here===>> */
+@media (min-width:481px) and (max-width:680px) {
+    .header-flex .nav-btn button {
+        width: 30% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    /* customer section responsiv start here===>>>>> */
+    .customer-section {
+        padding: 5px;
+    }
+
+    .customer-left-side h1 {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-left-side p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-section .customer-data {
+        width: 95%;
+        padding: 0px;
+    }
+
+    .customer-data .customer-left-side {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .customer-left-side .sign-up-btn {
+        margin-top: 10px;
+    }
+
+    .customer-left-side .sign-up-btn button {
+        padding: 16px;
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .customer-left-side .customer-send-rate p {
+        font-size: 10px;
+    }
+
+    .customer-data .customer-right-side {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .customer-right-side img {
+        box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* trusted guide section====>> */
+    .trusted-guide-section {
+        padding: 5px;
+    }
+
+    /* Business-across styling start here====>>>>>> */
+    .business-across-section {
+        padding: 0;
+    }
+
+    .chatsense-heading h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box .box-image {
+        margin: 5px;
+    }
+
+    .box-image img {
+        width: 230px;
+    }
+
+    .whatsap-section {
+        padding: 5px;
+    }
+
+    .whatsap_main_container .whatsap-para h1 {
+        font-size: 21px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    .whatsap-section .whatsap-para p {
+        margin: 0;
+    }
+
+    .main-whatsap {
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left p {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .whatsap-left .right-mark {
+        margin-top: 0px;
+    }
+
+    .right-mark img {
+        width: 20px;
+        margin-right: 11px;
+    }
+
+    .right-mark p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 0;
+    }
+
+    .main-whatsap .whatsap-right {
+        width: 100%;
+        height: auto;
+        padding: 3px;
+        margin-top: 10px;
+    }
+
+    .main-whatsap .whatsap-right img {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* About Chatsense start here===>>>>>>>>> */
+    .about-chatsense-section {
+        padding: 5px;
+    }
+
+    .chatsense-lead {
+        padding: 8px 5px;
+    }
+
+    .chatsense-companies {
+        display: block;
+    }
+
+    .company-tag-left {
+        display: block;
+    }
+
+    .company-tag-right {
+        padding: 16px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 5px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 50%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* bussines-section styling start here====>>>>>>>>>>>> */
+    .busines-section {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .chatsense-business .sales-team {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .sales-heading h4 {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .sales-heading p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .sales-team .sales-heading {
+        width: 98%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .sales-team .sign-up-demo {
+        width: 66%;
+        height: auto;
+    }
+
+    .sales-team .sign-up-demo button {
+        margin: 0;
+        width: 50%;
+        font-size: 14px;
+        padding: 11px 0px;
+    }
+
+    /* why chatsense start here======>>>>>>>>>>> */
+    .why-chatsense-section {
+        padding: 5px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp {
+        padding: 0px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp h2 {
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .why-chatsense-imp .imp-part {
+        padding: 0;
+    }
+
+    .imp-part .imp-left {
+        width: 98%;
+        height: auto;
+        margin: auto;
+    }
+
+    .imp-part .imp-left img {
+        margin-top: 10px;
+    }
+
+    .imp-part .imp-right {
+        width: 98%;
+    }
+
+    .imp-right .imp-mark {
+        padding: 0;
+        margin-top: 10px;
+        gap: 10px;
+        display: flex;
+        text-align: center;
+    }
+
+    .imp-mark img {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* Brands and customer experience start here */
+    .brands-section {
+        margin: auto;
+        padding: 0px 5px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 5px;
+    }
+
+    .brands-section .brands-countries .head-contries h4 {
+        font-size: 14px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .brands-countries .reviews {
+        margin: auto;
+    }
+
+    .reviews .reviews-iteam {
+        padding: 56px 15px 10px 15px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+    .customer_image {
+        top: -10%;
+        left: 32%;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 65px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+/* responsiv for min width 681px to 767px start here===>> */
+@media (min-width:681px) and (max-width:767px) {
+    .header-flex .nav-btn button {
+        width: 20% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    /* customer section responsiv start here===>>>>> */
+    .customer-section {
+        padding: 5px;
+    }
+
+    .customer-left-side h1 {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-left-side p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-section .customer-data {
+        width: 95%;
+        padding: 0px;
+    }
+
+    .customer-data .customer-left-side {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .customer-left-side .sign-up-btn {
+        margin-top: 10px;
+    }
+
+    .customer-left-side .sign-up-btn button {
+        padding: 16px;
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .customer-left-side .customer-send-rate p {
+        font-size: 10px;
+    }
+
+    .customer-data .customer-right-side {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .customer-right-side img {
+        box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* trusted guide section====>> */
+    .trusted-guide-section {
+        padding: 5px;
+    }
+
+    /* Business-across styling start here====>>>>>> */
+    .business-across-section {
+        padding: 0;
+    }
+
+    .chatsense-heading h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box .box-image {
+        margin: 5px;
+    }
+
+    .box-image img {
+        width: 230px;
+    }
+
+    .whatsap-section {
+        padding: 5px;
+    }
+
+    .whatsap_main_container .whatsap-para h1 {
+        font-size: 21px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    .whatsap-section .whatsap-para p {
+        margin: 0;
+    }
+
+    .main-whatsap {
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left p {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .whatsap-left .right-mark {
+        margin-top: 0px;
+    }
+
+    .right-mark img {
+        width: 20px;
+        margin-right: 11px;
+    }
+
+    .right-mark p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 0;
+    }
+
+    .main-whatsap .whatsap-right {
+        width: 100%;
+        height: auto;
+        padding: 3px;
+        margin-top: 10px;
+    }
+
+    .main-whatsap .whatsap-right img {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* About Chatsense start here===>>>>>>>>> */
+    .about-chatsense-section {
+        padding: 5px;
+    }
+
+    .chatsense-lead {
+        padding: 8px 5px;
+    }
+
+    .chatsense-companies {
+        display: block;
+    }
+
+    .company-tag-left {
+        display: block;
+    }
+
+    .company-tag-right {
+        padding: 16px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 5px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 50%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* bussines-section styling start here====>>>>>>>>>>>> */
+    .busines-section {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .chatsense-business .sales-team {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .sales-heading h4 {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .sales-heading p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .sales-team .sales-heading {
+        width: 98%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .sales-team .sign-up-demo {
+        width: 66%;
+        height: auto;
+    }
+
+    .sales-team .sign-up-demo button {
+        margin: 0;
+        width: 50%;
+        font-size: 14px;
+        padding: 11px 0px;
+    }
+
+    /* why chatsense start here======>>>>>>>>>>> */
+    .why-chatsense-section {
+        padding: 5px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp {
+        padding: 0px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp h2 {
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .why-chatsense-imp .imp-part {
+        padding: 0;
+    }
+
+    .imp-part .imp-left {
+        width: 98%;
+        height: auto;
+        margin: auto;
+    }
+
+    .imp-part .imp-left img {
+        margin-top: 10px;
+    }
+
+    .imp-part .imp-right {
+        width: 98%;
+    }
+
+    .imp-right .imp-mark {
+        padding: 0;
+        margin-top: 10px;
+        gap: 10px;
+        display: flex;
+        text-align: center;
+    }
+
+    .imp-mark img {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* Brands and customer experience start here */
+    .brands-section {
+        margin: auto;
+        padding: 0px 5px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 5px;
+    }
+
+    .brands-section .brands-countries .head-contries h4 {
+        font-size: 14px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .brands-countries .reviews {
+        margin: auto;
+    }
+
+    .reviews .reviews-iteam {
+        padding: 56px 15px 10px 15px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+    .customer_image {
+        top: -10%;
+        left: 35%;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 65px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+/* responsiv for min width 768px to 1024px start here===>> */
+@media (min-width:768px) and (max-width:1024px) {
+    .header-flex .nav-btn button {
+        width: 20% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+    
+    /* customer section responsiv start here===>>>>> */
+    .customer-section {
+        padding: 5px;
+    }
+
+    .customer-left-side h1 {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-left-side p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .customer-section .customer-data {
+        width: 95%;
+        padding: 0px;
+    }
+
+    .customer-data .customer-left-side {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .customer-left-side .sign-up-btn {
+        margin-top: 10px;
+    }
+
+    .customer-left-side .sign-up-btn button {
+        padding: 16px;
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .customer-left-side .customer-send-rate p {
+        font-size: 10px;
+    }
+
+    .customer-data .customer-right-side {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .customer-right-side img {
+        box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* trusted guide section====>> */
+    .trusted-guide-section {
+        padding: 5px;
+    }
+
+    /* Business-across styling start here====>>>>>> */
+    .business-across-section {
+        padding: 0;
+    }
+
+    .chatsense-heading h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box .box-image {
+        margin: 5px;
+    }
+
+    .box-image img {
+        width: 230px;
+    }
+
+    .whatsap-section {
+        padding: 5px;
+    }
+
+    .whatsap_main_container .whatsap-para h1 {
+        font-size: 21px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    .whatsap-section .whatsap-para p {
+        margin: 0;
+    }
+
+    .main-whatsap {
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .main-whatsap .whatsap-left p {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .whatsap-left .right-mark {
+        margin-top: 0px;
+    }
+
+    .right-mark img {
+        width: 20px;
+        margin-right: 11px;
+    }
+
+    .right-mark p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 0;
+    }
+
+    .main-whatsap .whatsap-right {
+        width: 100%;
+        height: auto;
+        padding: 3px;
+        margin-top: 10px;
+    }
+
+    .main-whatsap .whatsap-right img {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* About Chatsense start here===>>>>>>>>> */
+    .about-chatsense-section {
+        padding: 5px;
+    }
+
+    .chatsense-lead {
+        padding: 8px 5px;
+    }
+
+    .chatsense-companies {
+        display: block;
+    }
+
+    .company-tag-left {
+        display: block;
+    }
+
+    .company-tag-right {
+        padding: 16px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 5px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 50%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* bussines-section styling start here====>>>>>>>>>>>> */
+    .busines-section {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business {
+        padding: 5px;
+    }
+
+    .busines-section .chatsense-business h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .chatsense-business .sales-team {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .sales-heading h4 {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .sales-heading p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .sales-team .sales-heading {
+        width: 98%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .sales-team .sign-up-demo {
+        width: 66%;
+        height: auto;
+    }
+
+    .sales-team .sign-up-demo button {
+        margin: 0;
+        width: 50%;
+        font-size: 14px;
+        padding: 11px 0px;
+    }
+
+    /* why chatsense start here======>>>>>>>>>>> */
+    .why-chatsense-section {
+        padding: 5px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp {
+        padding: 0px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp h2 {
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+
+    .why-chatsense-section .why-chatsense-imp p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .why-chatsense-imp .imp-part {
+        padding: 0;
+    }
+
+    .imp-part .imp-left {
+        width: 98%;
+        height: auto;
+        margin: auto;
+    }
+
+    .imp-part .imp-left img {
+        margin-top: 10px;
+    }
+
+    .imp-part .imp-right {
+        width: 98%;
+    }
+
+    .imp-right .imp-mark {
+        padding: 0;
+        margin-top: 10px;
+        gap: 10px;
+        display: flex;
+        text-align: center;
+    }
+
+    .imp-mark img {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* Brands and customer experience start here */
+    .brands-section {
+        margin: auto;
+        padding: 0px 5px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 5px;
+    }
+
+    .brands-section .brands-countries .head-contries h4 {
+        font-size: 14px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .brands-countries .reviews {
+        margin: auto;
+    }
+
+    .reviews .reviews-iteam {
+        padding: 56px 15px 10px 15px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+    .customer_image {
+        top: -10%;
+        left: 35%;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 65px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}

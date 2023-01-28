@@ -1,0 +1,1784 @@
+/* media query start here=====>>>>>>>>>>>>> */
+@media (max-width:1024px) {
+    .full_length {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_expand {
+        display: block !important;
+        background-color: #e1eaf4;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        line-height: 50px;
+    }
+
+    .header-flex .nav-bar {
+        display: none;
+    }
+
+    .header-flex .nav-btn {
+        padding-bottom: 30px;
+    }
+
+    .header-flex .nav-btn button {
+        width: 40%;
+        padding: 10px 0px;
+        background-color: #4788ee;
+        color: #FFFFFF;
+        transition: all 1.2s;
+    }
+
+    .header-flex .nav-btn button:hover {
+        background-color: #ffffff;
+        color: #181E40;
+    }
+
+    .first_cross {
+        top: 13px !important;
+        right: 7px !important;
+        transform: rotate(44deg) translateX(5px);
+        transition: all 0.8s;
+    }
+
+    .second_cross {
+        top: 14px !important;
+        right: 1px !important;
+        transform: rotate(131deg) translateX(4px);
+        transition: all 0.8s;
+    }
+
+    .third_cross {
+        position: absolute;
+        transition: all 0.8s;
+        top: -8px !important;
+    }
+}
+
+@media (max-width:320px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .header-flex .logo .main-logo-img img {
+        width: 150px;
+    }
+
+    /* Ecommerce section responsuve start here===>>>>>>>>>>> */
+    .Ecommerce_section {
+        padding: 10px;
+    }
+
+    .main_h {
+        width: 100%;
+    }
+
+    .Ecommerce_section .main_ecommerce {
+        width: 98%;
+        display: block;
+    }
+
+    .left_ecommerce .left_com {
+        width: 100%;
+        line-height: 18px;
+    }
+
+    .Ecommerce_section .e-left_first {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .left_com .e-left_second p {
+        font-size: 13px;
+    }
+
+    .left_com .sale_btn {
+        width: 98%;
+        margin: auto;
+    }
+
+    .sale_btn button {
+        width: 95%;
+        margin-top: 10px;
+        padding: 13px;
+        font-size: 15px;
+    }
+
+    .e-right img {
+        width: 100%;
+    }
+
+    /* brands section start here===>>>>>>> */
+    .brands-section {
+        padding: 10px;
+    }
+
+    .brands-countries .reviews {
+        display: block;
+    }
+
+    .brands-section .brands-countries {
+        padding: 0px;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        padding: 49px 20px 10px;
+        margin-top: 25px;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 53px;
+        height: 50px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* feature - section start here ===>>>>>>>>>>>> */
+    .feature_section {
+        padding: 10px;
+    }
+
+    .feature_section_one {
+        padding: 10px;
+    }
+
+    .feature_main .upper_feature {
+        display: block;
+        width: 100%;
+    }
+
+    .upper_feature .left_feature {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left_feature .f_head {
+        font-size: 22px;
+    }
+
+    .left_feature .s_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .left_feature .t_para {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .right_feature img {
+        margin-top: 15px;
+    }
+
+    .feature_main .lower_feature {
+        display: block;
+        width: 100%;
+    }
+
+    .lower_feature .lower_right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower_right .lower_head {
+        font-size: 22px;
+    }
+
+    .lower_right .lower_second_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .lower_right .lower_third_head {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 10px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 60%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* trust -partner start here==>>>>>>> */
+    .trust_partner {
+        padding: 10px;
+    }
+
+    .Trust .trust_heading {
+        font-size: 21px;
+    }
+
+    .Trust .trust_about_com {
+        margin: 0;
+        display: block;
+    }
+
+    .trust_about_com .comp_logo {
+        margin-top: 10px;
+    }
+
+    .comp_logo img {
+        width: 60px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 10px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 14px;
+    }
+
+    .imp_heading h5 {
+        font-size: 13px;
+    }
+
+    .wati_address .chatsense_email {
+        margin-top: 7px;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 60%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 12px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media(min-width:321px) and (max-width:480px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .header-flex .logo .main-logo-img img {
+        width: 160px;
+    }
+
+    /* Ecommerce section responsuve start here===>>>>>>>>>>> */
+    .Ecommerce_section {
+        padding: 20px;
+    }
+
+    .main_h {
+        width: 100%;
+    }
+
+    .Ecommerce_section .main_ecommerce {
+        width: 98%;
+        display: block;
+    }
+
+    .left_ecommerce .left_com {
+        width: 100%;
+        line-height: 18px;
+    }
+
+    .Ecommerce_section .e-left_first {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .left_com .e-left_second p {
+        font-size: 13px;
+    }
+
+    .left_com .sale_btn {
+        width: 98%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .sale_btn button {
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 13px;
+        font-size: 15px;
+    }
+
+    .e-right img {
+        width: 100%;
+    }
+
+    /* brands section start here===>>>>>>> */
+    .brands-section {
+        padding: 10px;
+    }
+
+    .brands-countries .reviews {
+        display: block;
+        padding: 0px 50px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 0px;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        padding: 49px 20px 10px;
+        margin-top: 25px;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 53px;
+        height: 50px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* feature - section start here ===>>>>>>>>>>>> */
+    .feature_section {
+        padding: 20px;
+    }
+
+    .feature_section_one {
+        padding: 20px;
+    }
+
+    .feature_main .upper_feature {
+        display: block;
+        width: 100%;
+    }
+
+    .upper_feature .left_feature {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left_feature .f_head {
+        font-size: 22px;
+    }
+
+    .left_feature .s_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .left_feature .t_para {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .right_feature img {
+        margin-top: 15px;
+    }
+
+    .feature_main .lower_feature {
+        display: block;
+        width: 100%;
+    }
+
+    .lower_feature .lower_right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower_right .lower_head {
+        font-size: 22px;
+    }
+
+    .lower_right .lower_second_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .lower_right .lower_third_head {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 10px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 60%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* trust -partner start here==>>>>>>> */
+    .trust_partner {
+        padding: 10px;
+    }
+
+    .Trust .trust_heading {
+        font-size: 21px;
+    }
+
+    .Trust .trust_about_com {
+        margin: 0;
+    }
+
+    .trust_about_com .comp_logo {
+        margin-top: 10px;
+    }
+
+    .comp_logo img {
+        width: 60px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 21px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 12px;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+        line-height: 15px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 14px;
+    }
+
+    .imp_heading h5 {
+        font-size: 13px;
+    }
+
+    .chatsense_email {
+        margin-top: 7px;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 40%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 12px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media(min-width:481px) and (max-width:680px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .header-flex .logo .main-logo-img img {
+        width: 160px;
+    }
+
+    /* Ecommerce section responsuve start here===>>>>>>>>>>> */
+    .Ecommerce_section {
+        padding: 10px;
+    }
+
+    .main_h {
+        width: 100%;
+    }
+
+    .Ecommerce_section .main_ecommerce {
+        width: 98%;
+    }
+
+    .left_ecommerce .left_com {
+        width: 100%;
+        line-height: 18px;
+    }
+
+    .Ecommerce_section .e-left_first {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .left_com .e-left_second p {
+        font-size: 13px;
+    }
+
+    .left_com .sale_btn {
+        width: 98%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .sale_btn button {
+        width: 90%;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .e-right img {
+        width: 100%;
+    }
+
+    /* brands section start here===>>>>>>> */
+    .brands-section {
+        padding: 15px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 0px;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        padding: 49px 10px 10px;
+        margin-top: 25px;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 52px;
+        height: 42px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .customer_image {
+        top: -9%;
+        left: 36%;
+    }
+
+    /* feature - section start here ===>>>>>>>>>>>> */
+    .feature_section {
+        padding: 15px;
+    }
+
+    .feature_section_one {
+        padding: 15px;
+    }
+
+    .feature_main .upper_feature {
+        width: 100%;
+    }
+
+    .upper_feature .left_feature {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left_feature .f_head {
+        font-size: 22px;
+    }
+
+    .left_feature .s_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .left_feature .t_para {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .right_feature img {
+        margin-top: 15px;
+    }
+
+    .feature_main .lower_feature {
+        width: 100%;
+    }
+
+    .lower_feature .lower_right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower_left img {
+        width: 95%
+    }
+
+    .lower_right .lower_head {
+        font-size: 22px;
+    }
+
+    .lower_right .lower_second_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .lower_right .lower_third_head {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 10px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 30%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* trust -partner start here==>>>>>>> */
+    .trust_partner {
+        padding: 10px;
+    }
+
+    .Trust .trust_heading {
+        font-size: 21px;
+    }
+
+    .Trust .trust_about_com {
+        margin: 0;
+    }
+
+    .trust_about_com .comp_logo {
+        margin-top: 10px;
+    }
+
+    .comp_logo img {
+        width: 60px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media(min-width:681px) and (max-width:767px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .header-flex .logo .main-logo-img img {
+        width: 180px;
+    }
+
+    /* Ecommerce section responsuve start here===>>>>>>>>>>> */
+    .Ecommerce_section {
+        padding: 10px;
+    }
+
+    .main_h {
+        width: 100%;
+    }
+
+    .Ecommerce_section .main_ecommerce {
+        width: 98%;
+    }
+
+    .left_ecommerce .left_com {
+        width: 100%;
+        line-height: 18px;
+    }
+
+    .Ecommerce_section .e-left_first {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .left_com .e-left_second p {
+        font-size: 13px;
+    }
+
+    .left_com .sale_btn {
+        width: 98%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .sale_btn button {
+        width: 90%;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .e-right img {
+        width: 100%;
+    }
+
+    /* brands section start here===>>>>>>> */
+    .brands-section {
+        padding: 15px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 0px;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        padding: 49px 10px 10px;
+        margin-top: 25px;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 52px;
+        height: 42px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .customer_image {
+        top: -9%;
+        left: 36%;
+    }
+
+    /* feature - section start here ===>>>>>>>>>>>> */
+    .feature_section {
+        padding: 15px;
+    }
+
+    .feature_section_one {
+        padding: 15px;
+    }
+
+    .feature_main .upper_feature {
+        width: 100%;
+    }
+
+    .upper_feature .left_feature {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left_feature .f_head {
+        font-size: 22px;
+    }
+
+    .left_feature .s_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .left_feature .t_para {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .right_feature img {
+        margin-top: 15px;
+    }
+
+    .feature_main .lower_feature {
+        width: 100%;
+    }
+
+    .lower_feature .lower_right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower_left img {
+        width: 95%
+    }
+
+    .lower_right .lower_head {
+        font-size: 22px;
+    }
+
+    .lower_right .lower_second_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .lower_right .lower_third_head {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 10px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 30%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* trust -partner start here==>>>>>>> */
+    .trust_partner {
+        padding: 10px;
+    }
+
+    .Trust .trust_heading {
+        font-size: 21px;
+    }
+
+    .Trust .trust_about_com {
+        margin: 0;
+    }
+
+    .trust_about_com .comp_logo {
+        margin-top: 10px;
+    }
+
+    .comp_logo img {
+        width: 60px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 5px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 19px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 90%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+
+    .header-flex .logo .main-logo-img img {
+        width: 180px;
+    }
+
+    /* Ecommerce section responsuve start here===>>>>>>>>>>> */
+    .Ecommerce_section {
+        padding: 10px;
+    }
+
+    .main_h {
+        width: 100%;
+    }
+
+    .Ecommerce_section .main_ecommerce {
+        width: 98%;
+    }
+
+    .left_ecommerce .left_com {
+        width: 100%;
+        line-height: 18px;
+    }
+
+    .left_com .e-left_second p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .left_com .sale_btn {
+        width: 75%;
+        display: flex;
+        align-items: start;
+    }
+
+    .sale_btn button {
+        width: 90%;
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .e-right img {
+        width: 100%;
+    }
+
+    /* brands section start here===>>>>>>> */
+    .brands-section {
+        padding: 15px;
+    }
+
+    .brands-section .brands-countries {
+        padding: 0px;
+    }
+
+    .reviews .reviews-iteam {
+        width: 100%;
+        padding: 49px 10px 10px;
+        margin-top: 25px;
+    }
+
+    .reviews .reviews-iteam .customer_image img {
+        width: 52px;
+        height: 42px;
+    }
+
+    .customer_review .customer_name h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .reviews-iteam .main-review p {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .customer_image {
+        top: -11%;
+        left: 40%;
+    }
+
+    /* feature - section start here ===>>>>>>>>>>>> */
+    .feature_section {
+        padding: 15px;
+    }
+
+    .feature_section_one {
+        padding: 15px;
+    }
+
+    .feature_main .upper_feature {
+        width: 100%;
+    }
+
+    .upper_feature .left_feature {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left_feature .f_head {
+        font-size: 22px;
+    }
+
+    .left_feature .s_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .left_feature .t_para {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .right_feature img {
+        margin-top: 15px;
+    }
+
+    .feature_main .lower_feature {
+        width: 100%;
+    }
+
+    .lower_feature .lower_right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower_left img {
+        width: 95%
+    }
+
+    .lower_right .lower_head {
+        font-size: 22px;
+    }
+
+    .lower_right .lower_second_head {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .lower_right .lower_third_head {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* integration start here===>>>>>>> */
+    .integration-section {
+        padding: 10px;
+    }
+
+    .intigration-heading h2 {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .logo-img .first-div,
+    .third-div {
+        gap: 10px;
+    }
+
+    .logo-img .second-div {
+        justify-content: center;
+    }
+
+    .integration-page .inte-btn {
+        padding: 23px 0px;
+        width: 98%;
+    }
+
+    .intigration-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .integration-page .inte-btn {
+        padding: 14px 0px;
+        width: 30%;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .integration-page {
+        padding-bottom: 0px;
+    }
+
+    /* trust -partner start here==>>>>>>> */
+    .trust_partner {
+        padding: 20px;
+    }
+
+    .Trust .trust_heading {
+        font-size: 21px;
+    }
+
+    .Trust .trust_about_com {
+        margin-top: 15px;
+    }
+
+    .trust_about_com .comp_logo {
+        margin-top: 10px;
+    }
+
+    .comp_logo img {
+        width: 60px;
+    }
+
+    /* Be where your customers are start here=====>>>>>>>>>>> */
+    .communication-section {
+        margin: auto;
+        padding: 15px;
+    }
+
+    .communication-section .user {
+        padding: 0;
+    }
+
+    .user .user_first .user_data h2 {
+        font-size: 22px;
+    }
+
+    .user .user_first .user_data p {
+        font-size: 13px;
+        padding: 5px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .user_first .free_trial_btn {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        padding: 10px 5px;
+    }
+
+    .free_trial_btn button {
+        width: 95%;
+    }
+
+    /* Be where your customers are section responsive start here===>>>>>>>>>> */
+    .imp_heading {
+        margin-top: 2px;
+        padding: 0px;
+        line-height: 20px;
+    }
+
+    .user .user_first {
+        padding-bottom: 5px;
+    }
+
+    .imp_heading h4 {
+        font-size: 13px;
+    }
+
+    .imp_heading h5 {
+        font-size: 11px;
+    }
+
+    .chatsense_email {
+        margin: 0;
+    }
+
+    .chatsense_email span {
+        font-size: 13px;
+    }
+
+    .user .chatsense_footer {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chatsense_footer .chatsense_address {
+        width: 98%;
+        height: auto;
+        padding: 12px 6px;
+    }
+
+    .chatsense_address .chatsense-logo-img img {
+        width: 60%;
+    }
+
+    .dwnload_store img {
+        width: 228px;
+        height: 80px;
+        margin: 12px 10px;
+    }
+
+    .chatsense_footer .integrations {
+        width: 98%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .integrations h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .integrations .inte-u {
+        padding: 0;
+    }
+
+    .integrations .inte-u ul li a {
+        font-size: 11px;
+    }
+
+    .integrations ul li {
+        line-height: 20px;
+    }
+
+    .last_img {
+        width: 98%;
+        padding: 0;
+    }
+
+    .last_img .lst_company_logo {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .last_img .lst_company_logo img {
+        width: 20px;
+    }
+}
